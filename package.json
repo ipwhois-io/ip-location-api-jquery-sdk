@@ -1,56 +1,16 @@
 {
-  "_from": "ip-location-api-jquery-sdk",
-  "_inBundle": false,
-  "_integrity": "sha512-mmwTYe04ioiUcnOaMiPYD5SFIBoqvnRgeC/YkrYe5B9VGxRd1gdXVmDAaXRoHacDvgnqhW+CDMXnyEvvgXtj0g==",
-  "_location": "/ip-location-api-jquery-sdk",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "ip-location-api-jquery-sdk",
-    "name": "ip-location-api-jquery-sdk",
-    "escapedName": "ip-location-api-jquery-sdk",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/ip-location-api-jquery-sdk/-/ip-location-api-jquery-sdk-1.0.0.tgz",
-  "_shasum": "7afe1f670ee1309eb9effb25818c481c5d855593",
-  "_spec": "ip-location-api-jquery-sdk",
-  "_where": "/home/developer/jQry/npm",
-  "author": "ipwhoisio",
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "You can use this SDK to Geolocate an IP address and get time zone information based on geolocation coordinates, or an IP address.",
-  "keywords": [
-    "ip",
-    "ipgeo",
-    "ip geolocation",
-    "ip geolocation api",
-    "time zone",
-    "ip geolocation sdk",
-    "geolocation javascript",
-    "geoip lookup",
-    "geoip api",
-    "ip location api",
-    "ip location",
-    "ip lookup"
-  ],
-  "license": "ISC",
-  "main": "ipwhois.js",
   "name": "ip-location-api-jquery-sdk",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "version": "1.0.0",
+  "description": "IP Geolocation API",
+  "scripts": {
+    "test": "command for testing package"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ipwhois-io/ip-location-api-jquery-sdk.git"
   },
+  "author": "ipwhoisio",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ipwhois-io/ip-location-api-jquery-sdk/issues"
   },
