@@ -102,13 +102,16 @@ Here is a sample code to use IP Geolocation API using JQuery SDK:
 </script>
 ```
 
-** IPGeolocation provides geolocation information in the following languages:
-* English (en)
-* German (de)
-* Russian (ru)
-* Japanese (ja)
-* French (fr)
-* Chinese Simplified (cn)
-* Spanish (es)
-
-By default, geolocation information is returned in English. Response in a language other than English is available to paid users only.
+Pass the language parameter to get the geolocation information in a language other than English. By default, it is set to English language.<br>
+ipwhois provides response in the following languages:
+  
+<ul>
+<li>en -	English (default)</li>
+<li>de -	Deutsch (German)</li>
+<li>es -	Español (Spanish)</li>
+<li>pt-BR -	Español - Argentina (Spanish)</li>
+<li>fr -	Français (French)</li>
+<li>ja -	日本語 (Japanese)</li>
+<li>zh-CN -	中国 (Chinese)</li>
+<li>ru -	Русский (Russian)</li>
+</ul>
