@@ -47,7 +47,7 @@ ipwhois provides response in the following languages:
 Add the following script in your HTML page:
 
 ```html
-<script src="/ipwhois.min.js"></script>
+<script src="https://cdn.ipwhois.io/js/ipwhois.js"></script>
 ```
 
 ## Example
@@ -56,7 +56,7 @@ Here is a sample code to use IP Geolocation API using JQuery SDK:
 
 ```javascript
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="/ipwhois.min.js"></script>
+<script src="https://cdn.ipwhois.io/js/ipwhois.js"></script>
 
 <script>    
     $(document).ready(function() {
