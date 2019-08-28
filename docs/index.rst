@@ -13,11 +13,11 @@ and much more from any IPv4 and IPv6 address in Newline, JSON and XML format ove
 Quick Start Guide
 ============
 
-You can call the API by sending HTTP GET requests to <code>http://free.ipwhois.io/json/{IP}</code>
+You can call the API by sending HTTP GET requests to http://free.ipwhois.io/json/{IP}
 
-<code>{IP}</code> can be an IPv4 or IPv6 address, or none to use the current IP address.
+{IP} can be an IPv4 or IPv6 address, or none to use the current IP address.
 
-<strong>Note:</strong> Complete documentation to use this API is also available at <a href="https://ipwhois.io/documentation">IP Geolocation API Documentation</a>.
+Note: Complete documentation to use this API is also available at https://ipwhois.io/documentation.
 
 System Requirements 
 ============
@@ -27,7 +27,7 @@ Internet connection is required to run this component.
 Basic Usage
 ============
 
-Call method <code><strong>request_ipwhois($ip, $lang)</strong></code> passing IP address or none to use the current IP address as parameters (rest of the parameters are optional) and it will return the Geolocation for the passed IP address.
+Call method request_ipwhois($ip, $lang) passing IP address or none to use the current IP address as parameters (rest of the parameters are optional) and it will return the Geolocation for the passed IP address.
 
 Installation
 ============
@@ -36,16 +36,15 @@ CDN Link
 
 Add the following script in your HTML page:
 
-```html
+.. code:: html
 <script src="https://cdn.ipwhois.io/js/ipwhois.js"></script>
-```
 
 Example
 ============
 
 Here is a sample code to use IP Geolocation API using JQuery SDK:
 
-```javascript
+.. code:: javascript
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.ipwhois.io/js/ipwhois.js"></script>
 
@@ -58,4 +57,3 @@ Here is a sample code to use IP Geolocation API using JQuery SDK:
         alert("Region: " + ipwhois.region);
     });
 </script>
-```
