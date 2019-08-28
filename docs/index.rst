@@ -42,7 +42,7 @@ Add the following script in your HTML page:
 
 .. code:: html
 
-<script src="https://cdn.ipwhois.io/js/ipwhois.js"></script>
+	<script src="https://cdn.ipwhois.io/js/ipwhois.js"></script>
 
 Example
 ============
@@ -51,15 +51,15 @@ Here is a sample code to use IP Geolocation API using JQuery SDK:
 
 .. code:: javascript
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdn.ipwhois.io/js/ipwhois.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.ipwhois.io/js/ipwhois.js"></script>
 
-<script>    
-    $(document).ready(function() {
-        var ipaddress = "";
-        var ipwhois = request_ipwhois(ipaddress);
-	alert("Country: " + ipwhois.country);
-        alert("City: " + ipwhois.city);
-        alert("Region: " + ipwhois.region);
-    });
-</script>
+	<script>    
+	    $(document).ready(function() {
+		var ipaddress = "";
+		var ipwhois = request_ipwhois(ipaddress);
+		alert("Country: " + ipwhois.country);
+		alert("City: " + ipwhois.city);
+		alert("Region: " + ipwhois.region);
+	    });
+	</script>
