@@ -17,6 +17,30 @@ You can call the API by sending HTTP GET requests to <code>http://free.ipwhois.i
 
 Internet connection is required to run this component.
 
+<h2>Basic Usage</h2>
+
+Call method <code><strong>request_ipwhois($ip, $lang)</strong></code> passing IP address or none to use the current IP address as parameters (rest of the parameters are optional) and it will return the Geolocation for the passed IP address. To customize the geolocation response, you can pass the other parameters to <code><strong>request_ipwhois()</strong></code> method as described below:
+
+<ul>  
+<li>
+<p><strong>$lang</strong></p>
+Pass the language parameter to get the geolocation information in a language other than English. By default, it is set to English language.<br>
+ipwhois provides response in the following languages:
+  
+<ul>
+<li>en -	English (default)</li>
+<li>de -	Deutsch (German)</li>
+<li>es -	Español (Spanish)</li>
+<li>pt-BR -	Español - Argentina (Spanish)</li>
+<li>fr -	Français (French)</li>
+<li>ja -	日本語 (Japanese)</li>
+<li>zh-CN -	中国 (Chinese)</li>
+<li>ru -	Русский (Russian)</li>
+</ul>
+ 
+</li>
+</ul>
+
 ### Installation
 ### CDN Link
 
@@ -44,17 +68,3 @@ Here is a sample code to use IP Geolocation API using JQuery SDK:
     });
 </script>
 ```
-
-Pass the language parameter to get the geolocation information in a language other than English. By default, it is set to English language.<br>
-ipwhois provides response in the following languages:
-  
-<ul>
-<li>en -	English (default)</li>
-<li>de -	Deutsch (German)</li>
-<li>es -	Español (Spanish)</li>
-<li>pt-BR -	Español - Argentina (Spanish)</li>
-<li>fr -	Français (French)</li>
-<li>ja -	日本語 (Japanese)</li>
-<li>zh-CN -	中国 (Chinese)</li>
-<li>ru -	Русский (Russian)</li>
-</ul>
