@@ -7,21 +7,17 @@ and much more from any IPv4 and IPv6 address in Newline, JSON and XML format ove
 
 ## Quick Start Guide
 
-You need a valid 'IPGeolocation API key' to use this SDK. here and get your free API key if you don't have one.
-
-**Note:** Complete documentation to use this SDK is also available at [IP Geolocation API Documentation](https://ipwhois.io/documentation).
-
-## System Requirements  
+### System Requirements  
 
 Internet connection is required to run this component.
 
-## Installation
+### Installation
 ### CDN Link
 
 Add the following script in your HTML page:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/ip-geolocation-api-jquery-sdk@1.0.6/ipgeolocation.min.js"></script>
+<script src="/ipwhois.min.js"></script>
 ```
 
 ## Geolocation Lookup
@@ -64,39 +60,6 @@ setIPAddressParameter("1.1.1.1");
 setExcludesParameter("ip");
 getGeolocation(handleResponse, "YOUR_API_KEY");
 ```
-## Time Zone API
-
-Here are a few examples to query Time Zone information from Timezone API.
-
-```javascript
-// Function to handle the response from IP Geolocation API.
-// "response" is a JSON object returned from IP Geolocation API.
-function handleResponse(response) {
-    console.log(response);
-}
-
-// Get time zone information for the calling machine's IP address with an API key (optional, if you're using "Request Origin" feature at IP Geolocation API)
-getTimezone(handleResponse, "YOUR_API_KEY");
-
-// Don't pass the API key if you're using the "Request Origin" feature at IP Geolocation API
-getTimezone(handleResponse);
-
-// Toggle API calls' async behavior. By default, async is true.
-setAsync(false)
-
-// Get time zone information for an IP address "1.1.1.1" and geolocation information in Italian language **
-setIPAddressParameter("1.1.1.1");
-setLanguageParameter("it");
-getTimezone(handleResponse, "YOUR_API_KEY");
-
-// Get time zone infomration for a time zone "America/New_York"
-setTimezoneParameter("America/Los_Angeles");
-getTimezone(handleResponse, "YOUR_API_KEY");
-
-// Get time zone information by coordinates of the location
-setCoordinatesParameter("31.4816", "74.3551");
-getTimezone(handleResponse, "YOUR_API_KEY");
-```
 
 ## Example
 
@@ -104,7 +67,7 @@ Here is a sample code to use IP Geolocation API using JQuery SDK:
 
 ```javascript
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/ip-geolocation-api-jquery-sdk@1.0.5/ipgeolocation.min.js"></script>
+<script src="/ipwhois.min.js"></script>
 
 <script>
     var ip = sessionStorage.getItem("ip");
@@ -141,7 +104,5 @@ Here is a sample code to use IP Geolocation API using JQuery SDK:
 * French (fr)
 * Chinese Simplified (cn)
 * Spanish (es)
-* Czech (cs)
-* Italian (it)
 
 By default, geolocation information is returned in English. Response in a language other than English is available to paid users only.
