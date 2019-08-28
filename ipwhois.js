@@ -1,18 +1,13 @@
-function request_ipwhois (ip, format = "json", lang = "en") {
-    $.ajax ({
+function request_ipwhois (ip = "", lang = "en") {
+    return JSON.parse($.ajax({
         method: "GET",
-        url: "http://free.ipwhois.io/" + format + "/" + ip + "?lang=" + lang,
+        url: "http://free.ipwhois.io/json/" + ip + "?lang=" + lang,
         contentType: "application/json",
         dataType: "json",
-        success: function (result, status, xhr) {
-            if (callback) {
-                callback(result);
-            }
-        },
-        error: function (xhr, status, error) {
-            if (callback) {
-                callback(JSON.parse(xhr.responseText));
-            }
+		global: false,
+		async: false,
+		success: function (data) {
+            return data;
         }
-    });
+    }).responseText);
 }
