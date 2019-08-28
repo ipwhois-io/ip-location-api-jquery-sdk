@@ -1,7 +1,7 @@
 {
   "name": "ip-location-api-jquery-sdk",
-  "version": "1.0.0",
-  "description": "IP Geolocation API",
+  "version": "1.0.3",
+  "description": "JQuery SDK for IP Location API](https://ipwhois.io/documentation). You can use this SDK to Geolocate an IP address.",
   "scripts": {
     "test": "command for testing package"
   },
@@ -14,5 +14,20 @@
   "bugs": {
     "url": "https://github.com/ipwhois-io/ip-location-api-jquery-sdk/issues"
   },
-  "homepage": "https://github.com/ipwhois-io/ip-location-api-jquery-sdk#readme"
+  "homepage": "https://ipwhois.io",
+  "main": "ipwhois.js",
+  "keywords": [
+    "ip",
+    "ipgeo",
+    "ip geolocation",
+    "ip geolocation api",
+    "time zone",
+    "ip geolocation sdk",
+    "geolocation javascript",
+    "geoip lookup",
+    "geoip api",
+    "ip location api",
+    "ip location",
+    "ip lookup"
+  ]
 }
