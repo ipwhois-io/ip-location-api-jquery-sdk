@@ -4,9 +4,9 @@ function request_ipwhois (ip = "", lang = "en") {
         url: "http://free.ipwhois.io/json/" + ip + "?lang=" + lang,
         contentType: "application/json",
         dataType: "json",
-		global: false,
-		async: false,
-		success: function (data) {
+	global: false,
+	async: false,
+	success: function (data) {
             return data;
         }
     }).responseText);
