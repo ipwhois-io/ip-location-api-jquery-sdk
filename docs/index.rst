@@ -31,7 +31,7 @@ Internet connection is required to run this component.
 Basic Usage
 ============
 
-Call method request_ipwhois($ip, $lang) passing IP address or none to use the current IP address as parameters (rest of the parameters are optional) and it will return the Geolocation for the passed IP address.
+Call method request_ipwhois($ip, $lang, $apiKey) passing IP address or none to use the current IP address as parameters (rest of the parameters are optional) and it will return the Geolocation for the passed IP address.
 
 Installation
 ============
@@ -57,7 +57,8 @@ Here is a sample code to use IP Geolocation API using JQuery SDK:
 	<script>    
 	    $(document).ready(function() {
 		var ipaddress = "";
-		var ipwhois = request_ipwhois(ipaddress);
+		var apiKey = ""; // Leave blank for free endpoint
+		var ipwhois = request_ipwhois(ipaddress,'en',apiKey);
 		alert("Country: " + ipwhois.country);
 		alert("City: " + ipwhois.city);
 		alert("Region: " + ipwhois.region);
