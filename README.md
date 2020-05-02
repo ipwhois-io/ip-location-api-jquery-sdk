@@ -19,7 +19,7 @@ Internet connection is required to run this component.
 
 <h2>Basic Usage</h2>
 
-Call method <code><strong>request_ipwhois($ip, $lang)</strong></code> passing IP address or none to use the current IP address as parameters (rest of the parameters are optional) and it will return the Geolocation for the passed IP address. To customize the geolocation response, you can pass the other parameters to <code><strong>request_ipwhois()</strong></code> method as described below:
+Call method <code><strong>request_ipwhois($ip, $lang, $apiKey)</strong></code> passing IP address or none to use the current IP address as parameters (rest of the parameters are optional) and it will return the Geolocation for the passed IP address. To customize the geolocation response, you can pass the other parameters to <code><strong>request_ipwhois()</strong></code> method as described below:
 
 <ul>  
 <li>
