@@ -61,7 +61,8 @@ Here is a sample code to use IP Geolocation API using JQuery SDK:
 <script>    
     $(document).ready(function() {
         var ipaddress = "";
-        var ipwhois = request_ipwhois(ipaddress);
+	var apiKey = ""; // Leave blank for free endpoint
+        var ipwhois = request_ipwhois(ipaddress,'en',apiKey);
 	alert("Country: " + ipwhois.country);
         alert("City: " + ipwhois.city);
         alert("Region: " + ipwhois.region);
