@@ -1,7 +1,7 @@
 function request_ipwhois(b, c, a) {
     a = void 0 === a ? "" : a;
     var d = "http://free.ipwhois.io";
-    "" != a && (d = "https://ipwhois.pro", a = "&key=" + a);
+    "" != a && (d = window.location.protocol+"//ipwhois.pro", a = "&key=" + a);
     return JSON.parse($.ajax({
         method: "GET",
         url: d + "/json/" + (void 0 === b ? "" : b) + "?lang=" + (void 0 === c ? "en" : c) + a,
