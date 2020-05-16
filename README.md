@@ -55,7 +55,7 @@ Add the following script in your HTML page:
 Here is a sample code to use IP Geolocation API using JQuery SDK:
 
 ```javascript
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdn.ipwhois.io/js/ipwhois.js"></script>
 
 <script>    
