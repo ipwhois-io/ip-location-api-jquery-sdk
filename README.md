@@ -7,7 +7,7 @@ and much more from any IPv4 and IPv6 address in Newline, JSON and XML format ove
 
 ## Quick Start Guide
 
-You can call the API by sending HTTP GET requests to <code>http://free.ipwhois.io/json/{IP}</code>
+You can call the API by sending HTTP GET requests to <code>http://ipwhois.app/json/{IP}</code>
 
 <code>{IP}</code> can be an IPv4 or IPv6 address, or none to use the current IP address.
 
