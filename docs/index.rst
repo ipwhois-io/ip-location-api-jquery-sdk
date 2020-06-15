@@ -17,7 +17,7 @@ You can call the API by sending HTTP GET requests to
 
 .. code:: console
 
-  http://free.ipwhois.io/json/{IP}
+  http://ipwhois.app/json/{IP}
 
 {IP} can be an IPv4 or IPv6 address, or none to use the current IP address.
 
