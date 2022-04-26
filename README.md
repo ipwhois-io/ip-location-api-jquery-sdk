@@ -47,7 +47,7 @@ ipwhois provides response in the following languages:
 Add the following script in your HTML page:
 
 ```html
-<script src="https://cdn.ipwhois.io/js/ipwhois.js"></script>
+<script src="https://cdn.ipwhois.io/js/ipwho.is.js"></script>
 ```
 
 ## Example
